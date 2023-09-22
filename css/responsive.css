@@ -1,0 +1,706 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+@media (min-width: 1550px) and (max-width: 1850px) {
+    /* PAGINA NATURAL */
+
+    .textoEncima p {
+        top: 28%;
+        width: 35%;
+        transform: translate(55%);
+        /* border-radius: 5px; */
+        font-size: 35px;
+        /* line-height: 1.5; */
+    }
+}
+
+@media (min-width: 1342px) and (max-width: 1550px) {
+    /** banner section **/
+
+    .relative {
+        top: 20%;
+        width: 38%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    /* PAGINA NATURAL */
+
+    .textoEncima p {
+        top: 26%;
+        width: 40%;
+        transform: translate(45%);
+        /* border-radius: 5px; */
+        font-size: 34px;
+        /* line-height: 1.5; */
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .carousel-caption span {
+        font-size: 35px;
+    }
+
+    .relative {
+        top: 20%;
+        width: 38%;
+        transform: translate(0%, -20%);
+    }
+
+    .carousel-caption h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .about .titlepage p {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+
+    /*PAGINA SERVICIOS */
+
+    .containerSer11 {
+        padding: 40px;
+    }
+
+    .containerSer11 h2 {
+        font-size: 22px;
+    }
+
+     /* PAGINA NATURAL */
+
+     .textoEncima p {
+        top: 26%;
+        width: 40%;
+        transform: translate(45%);
+        /* border-radius: 5px; */
+        font-size: 30px;
+        /* line-height: 1.5; */
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 16px;
+        font-size: 14px;
+    }
+
+    .titlepage h2 {
+        font-size: 37px;
+    }
+
+    .about .titlepage p {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px 0px 25px 0px;
+    }
+
+    .relative {
+        top: 18%;
+        width: 50%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 40px;
+        padding-bottom: 0px;
+        line-height: 50px;
+    }
+
+    .carousel-caption span {
+        font-size: 38px;
+    }
+
+    .carousel-caption a {
+        margin-top: 30px;
+    }
+
+    .sign_btn {
+        padding-left: 15px;
+    }
+
+    .sign_btn a {
+        padding: 7px 27px;
+    }
+
+    /* secion mision, vision  */
+    .container-fluidTwo {
+        padding: 0;
+
+    }
+
+    .container-fluidTwo .fila {
+        padding-left: 8%;
+
+    }
+
+    .imageMision {
+        display: none;
+    }
+
+
+    /* mobile section   */
+
+    .mobile .titlepage {
+        padding: 20px 10px;
+    }
+
+    .mobile .titlepage .logoimg .iconimg {
+        width: 20%;
+        margin-right: 10px;
+    }
+
+    .mobile .titlepage .logoimg .icontext {
+        width: 80%;
+    }
+
+    .mobile_img figure img {
+        height: 250px;
+
+    }
+
+
+    /*PAGINA SERVICIOS */
+
+    .containerSer11 img {
+        width: 80%;
+    }
+
+    .containerSer11 h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .containerSer1 .btn-group button {
+        font-size: 28px;
+        /* Ajusta el tamaño de los iconos */
+        padding: 5px 30px;
+        /* Ajusta el espacio dentro del botón */
+    }
+
+     /* PAGINA NATURAL */
+
+     .textoEncima p {
+        top: 26%;
+        width: 40%;
+        transform: translate(45%);
+        /* border-radius: 5px; */
+        font-size: 24px;
+        /* line-height: 1.5; */
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .navigation.navbar {
+        padding: 27px 16px 27px 0;
+    }
+
+    .sign_btn {
+        display: none;
+    }
+
+    .carousel-caption h1 {
+        font-size: 40px;
+        padding-bottom: 0px;
+        line-height: 50px;
+    }
+
+    .carousel-caption h5 {
+        display: none;
+    }
+
+    .carousel-caption span {
+        font-size: 30px;
+    }
+
+    .carousel-caption a {
+        padding: 9px 0px;
+        margin-top: 0px;
+        max-width: 174px;
+    }
+
+    .relative {
+        top: 17%;
+        transform: translateY(-15%);
+        width: 50%;
+    }
+
+    .titlepage h2 {
+        font-size: 29px;
+    }
+
+    .about .titlepage p {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 10px 0px 15px 0px;
+    }
+
+    /* secion mision, vision  */
+    .container-fluidTwo {
+        padding: 0;
+
+    }
+
+    .container-fluidTwo .fila {
+        padding-left: 8%;
+
+    }
+
+    .imageMision {
+        display: none;
+    }
+
+    /* mobile section   */
+
+
+
+    .mobile .titlepage {
+        padding: 20px 10px;
+    }
+
+    .mobile .titlepage .logoimg .iconimg {
+        width: 15%;
+        margin-right: 0px;
+    }
+
+    .mobile .titlepage .logoimg .icontext {
+        width: 85%;
+    }
+
+    .mobile_img figure img {
+        height: 180px;
+
+    }
+
+    .mobile .titlepage span {
+        margin-left: 19px;
+    }
+
+    .clients .titlepage span {
+        margin-left: 28px;
+    }
+
+
+    /*PAGINA SERVICIOS */
+
+    .containerSer11 img {
+        margin-top: 25px;
+        width: 80%;
+    }
+
+    .containerSer11 h2 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .containerSer1 .btn-group button {
+        display: none;
+    }
+
+     /* PAGINA NATURAL */
+
+     .textoEncima p {
+        top: 26%;
+        width: 40%;
+        transform: translate(45%);
+        /* border-radius: 5px; */
+        font-size: 18px;
+        font-weight: 500;
+        /* line-height: 1.5; */
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .mean-container .mean-bar {
+        margin-top: 0px;
+    }
+
+    .relative {
+        top: 17%;
+        transform: translateY(-15%);
+        width: 50%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+        padding-bottom: 0px;
+        line-height: 40px;
+    }
+
+    .carousel-caption span {
+        font-size: 25px;
+    }
+
+    .carousel-caption h5 {
+        display: none;
+    }
+
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .carousel-caption a {
+        margin-top: 20px;
+    }
+
+    .carousel-caption .btnContacto a {
+        font-size: 15px;
+        padding: 5px 0px;
+        max-width: 140px;
+        border-radius: 25px;
+    }
+
+    .titlepage h2 {
+        font-size: 35px;
+    }
+
+    .about .titlepage p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .padding_bottom1 {
+        padding-bottom: 30px;
+    }
+
+    .mobile_img {
+        padding-bottom: 30px;
+    }
+
+    .mobile .titlepage {
+        width: 80%;
+        margin: 0 10%;
+
+    }
+
+    .clients .titlepage span {
+        margin-left: 92px;
+    }
+
+    .sign_btn {
+        display: none;
+    }
+
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding-top: 33px;
+        width: 100%;
+    }
+
+    .navigation .navbar-collapse {
+        background: #00aeefe3;
+        padding: 20px;
+        margin-top: 49px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding-top: 0px;
+    }
+
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+
+    /* secion mision, vision  */
+    .container-fluidTwo {
+        margin-top: -60px;
+    }
+
+    .container-fluidTwo .fila {
+        padding: 20px 20px 0px 20px;
+        text-align: center;
+    }
+
+    .container-fluidTwo ul.lead li {
+
+        background-size: 0;
+        /* Reduce el tamaño de la imagen de viñeta en móvil */
+    }
+
+    /* end secion mision, vision  */
+
+    /* footer */
+
+    .container-fluidThree .footerContainer {
+        padding: 4% 0;
+    }
+
+    .container-fluidThree .footerderechos {
+        background-color: gray;
+        width: 100%;
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    .container-fluidThree .tituloContacto {
+        margin: 30px;
+        text-align: center
+    }
+
+    .container-fluidThree .t1 {
+        width: 60%;
+        margin: 1% 15% 0 25%;
+
+    }
+
+    .container-fluidThree .iconredes {
+        margin: 20px;
+
+    }
+
+    /*PAGINA SERVICIOS */
+
+    .containerSer11 img {
+        margin-top: 25px;
+        width: 60%;
+    }
+
+    .containerSer11 h2 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .containerSer1 .btn-group button {
+        display: none;
+    }
+
+    .titlepage .reemplazoImg {
+        display: block !important;
+    }
+
+    .titlepage .imgdetalles {
+        display: none;
+    }
+
+    /* PAGINA NATURAL */
+
+    .textoEncima p {
+        top: 28%;
+        width: 40%;
+        transform: translate(45%);
+        /* border-radius: 5px; */
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 1;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .logo {
+        text-align: center !important;
+        padding-bottom: 40px;
+    }
+
+    .relative {
+        top: 18%;
+        transform: translateY(-10%);
+        width: 60%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+        line-height: 41px;
+        padding-bottom: 0px;
+    }
+
+    .carousel-caption span {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .carousel-caption h5 {
+        display: none;
+    }
+
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .carousel-caption .btnContacto a {
+        font-size: 15px;
+        padding: 5px 0px;
+        max-width: 120px;
+        border-radius: 25px;
+        margin-top: 30px;
+    }
+
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+    }
+
+
+    .carousel-caption a {
+        margin-top: 20px;
+    }
+
+    .sign_btn {
+        display: none;
+    }
+
+    .titlepage h2 {
+        margin-top: 30px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .about .titlepage p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .about_img {
+        padding-top: 0px;
+    }
+
+
+    /* secion mision, vision  */
+    .container-fluidTwo {
+        margin-top: -60px;
+    }
+
+    .container-fluidTwo .fila {
+        padding: 20px 20px 0px 20px;
+        text-align: center;
+    }
+
+    .container-fluidTwo ul.lead li {
+
+        background-size: 0;
+        /* Reduce el tamaño de la imagen de viñeta en móvil */
+    }
+
+    /* end secion mision, vision  */
+
+
+    .mobile_img {
+        margin-bottom: 30px;
+    }
+
+    .mobile .titlepage {
+        width: 70%;
+        margin: 0 15%;
+
+    }
+
+    .mobile .titlepage .logoimg .iconimg {
+        width: 25%;
+
+    }
+
+    .mobile .titlepage .logoimg .icontext {
+        width: 75%;
+
+    }
+
+    .clients .titlepage span {
+        margin-left: 41px;
+    }
+
+    .mobile .titlepage span {
+        margin-left: 7px;
+    }
+
+    .padding_bottom1 {
+        padding-bottom: 30px;
+    }
+
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: 4px;
+    }
+
+    .navigation .navbar-collapse {
+        background: #00aeefe3;
+        padding: 20px;
+        margin-top: 37px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+
+    .testimonial_box {
+        padding: 0px 19px 40px 20px;
+    }
+
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+
+    /*PAGINA SERVICIOS */
+
+    .containerSer11 img {
+        margin-top: 40px;
+        width: 55%;
+    }
+
+    .containerSer11 h2 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .containerSer1 .btn-group button {
+        display: none;
+    }
+
+    .titlepage .reemplazoImg {
+        display: block !important;
+    }
+
+    .titlepage .imgdetalles {
+        display: none;
+    }
+
+     /* PAGINA NATURAL */
+
+     .textoEncima p {
+        top: 28%;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1;
+    }
+}
