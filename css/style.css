@@ -36,6 +36,9 @@
 * {
      box-sizing: border-box !important;
      font-family: 'Montserrat';
+     margin: 0;
+     padding: 0;
+     max-width: 100%;
 }
 
 html {
@@ -389,7 +392,9 @@ button {
      align-items: center;
      justify-content: center;
 }
-
+.logo img {
+     width: 120px;
+}
 /* QUIENES SOMOS  */
 .custom-container {
      position: relative;
@@ -726,28 +731,7 @@ button {
 }
 
 
-/* footer */
 
-.container-fluidThree .footerContainer {
-     padding: 2% 0;
-}
-
-.container-fluidThree .footerContainer p{
-     font-size: 18px;
-}
-
-.container-fluidThree .footerderechos {
-     background-color: gray;
-     width: 100%;
-     padding: 5px 0;
-     text-align: center;
-}
-
-.container-fluidThree .tituloContacto{
-     color: blue;
-     font-weight: 900;
-     font-size: 20px !important;
-}
 
 
 /** mobile section **/
@@ -876,22 +860,24 @@ button {
 /** footer **/
 
 .footer {
-     background: #042431;
+     background: white;
      text-align: center;
+     width: 100%;
 }
 
 .border-top {
-     border-top: #fff solid 1px;
-     padding-top: 90px;
+     border-top: black solid 1px;
+     padding-top: 40px;
+     max-width: 100%;
 }
 
 .footer h3 {
-     color: #fff;
-     font-weight: 500;
-     font-size: 17px;
-     line-height: 20px;
+     color: blue;
+     font-weight: 900;
+     font-size: 22px;
+     line-height: 10px;
      text-align: left;
-     padding-bottom: 20px;
+     padding-bottom: 10px;
 }
 
 .footer_form {
@@ -934,14 +920,20 @@ button {
 }
 
 ul.cont li {
-     color: #8a9397;
-     font-size: 17px;
+     font-size: 18px;
      line-height: 32px;
-     text-align: left;
+     text-align: left;    
+     margin: 0 -32px;
+     
+}
+
+.iconredes img{
+     width: 60px;
+
 }
 
 .copyright {
-     margin-top: 90px;
+     margin-top: 60px;
      padding: 20px 0px;
      background-color: #00aeef;
 }
@@ -969,7 +961,7 @@ ul.cont li {
 /** inner page css **/
 
 .margin_to90 .footer {
-     margin-top: 90px;
+     margin-top: 45px;
 }
 
 .ourwork {

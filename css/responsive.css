@@ -28,6 +28,13 @@
         line-height: 60px;
     }
 
+    /* footer */
+
+    .iconredes{
+        display: flex;
+   
+   }
+
     /* PAGINA NATURAL */
 
     .textoEncima p {
@@ -61,6 +68,15 @@
         font-size: 22px;
         line-height: 32px;
     }
+
+     /* footer */
+
+     .iconredes img{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+   
+   }
 
 
     /*PAGINA SERVICIOS */
@@ -164,6 +180,16 @@
         height: 250px;
 
     }
+
+     /* footer */
+
+     .iconredes img{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+   
+   }
+
 
 
     /*PAGINA SERVICIOS */
@@ -292,6 +318,16 @@
     .clients .titlepage span {
         margin-left: 28px;
     }
+
+    /* footer */
+
+    .iconredes img{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+   
+   }
+
 
 
     /*PAGINA SERVICIOS */
@@ -427,6 +463,15 @@
         background-repeat: no-repeat;
     }
 
+    .footer h3 {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .footer .cont li {
+        text-align: center !important;
+    }
+
     /* secion mision, vision  */
     .container-fluidTwo {
         margin-top: -60px;
@@ -445,34 +490,7 @@
 
     /* end secion mision, vision  */
 
-    /* footer */
-
-    .container-fluidThree .footerContainer {
-        padding: 4% 0;
-    }
-
-    .container-fluidThree .footerderechos {
-        background-color: gray;
-        width: 100%;
-        padding: 5px 0;
-        text-align: center;
-    }
-
-    .container-fluidThree .tituloContacto {
-        margin: 30px;
-        text-align: center
-    }
-
-    .container-fluidThree .t1 {
-        width: 60%;
-        margin: 1% 15% 0 25%;
-
-    }
-
-    .container-fluidThree .iconredes {
-        margin: 20px;
-
-    }
+    
 
     /*PAGINA SERVICIOS */
 
@@ -604,6 +622,12 @@
     /* end secion mision, vision  */
 
 
+    /* carousel index */
+
+    /* .carouselIndex .carousel-item img{
+        height: 10% !important;
+    } */
+
     .mobile_img {
         margin-bottom: 30px;
     }
@@ -674,35 +698,16 @@
         background-repeat: no-repeat;
     }
 
-
-    /* footer */
-
-    .container-fluidThree .footerContainer {
-        padding: 4% 0;
-    }
-
-    .container-fluidThree .footerderechos {
-        background-color: gray;
-        width: 100%;
-        padding: 5px 0;
+    .footer h3 {
         text-align: center;
+        padding-top: 30px;
     }
 
-    .container-fluidThree .tituloContacto {
-        margin: 30px;
-        text-align: center
+    .footer .cont li {
+        text-align: center !important;
     }
 
-    .container-fluidThree .t1 {
-        width: 60%;
-        margin: 1% 15% 0 25%;
 
-    }
-
-    .container-fluidThree .iconredes {
-        margin: 20px;
-
-    }
     /*PAGINA SERVICIOS */
 
     .containerSer11 img {
