@@ -522,6 +522,7 @@ button {
 .titlepage {
      text-align: center;
      padding-bottom: 60px;
+     
 }
 .titlepage .reemplazoImg{
      display: none;
@@ -580,12 +581,14 @@ button {
      background-repeat: no-repeat;
      background-size: 100% 100%; */
      padding: 90px 0;
+     width: 100%;
+     
 
 }
 
 .about .titlepage {
      text-align: left;
-     padding: 0;
+     padding: 0 10px;
 }
 
 .about .titlepage p {
@@ -593,12 +596,13 @@ button {
      font-size: 24px;
      line-height: 35px;
      font-weight: 400;
-     padding: 20px 0px 35px 0px;
+     padding: 20px 0px;
+     margin: 0 0 0 20px;
 }
 
 .about_img figure {
      margin: 5px 10px;
-
+     width: 100%;
 }
 
 .about_img figure img {
