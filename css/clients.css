@@ -2,13 +2,6 @@
 # Clients
 --------------------------------------------------------------*/
 
-
-#quienessomos1 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1000; /* Ajusta este valor según sea necesario para que el contenedor aparezca encima de otros elementos */
-}
 .clients{
   padding-top: 90px;
   padding-bottom: 90px;
