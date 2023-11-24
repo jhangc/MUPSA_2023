@@ -296,19 +296,19 @@ include_once "header.php";
                <div class="row pt-3 mx-0">
                   <div class="col-4 px-0">
                      <div class="bg-success text-center p-4">
-                        <h1 class="text-white" data-toggle="counter-up">10</h1>
+                        <h1 class="text-white" data-toggle="counter-up">66</h1>
                         <h6 class="text-uppercase text-white">Proyectos <span class="d-block">Realizados </span></h6>
                      </div>
                   </div>
                   <div class="col-4 px-0">
                      <div class="bg-primary text-center p-4">
-                        <h1 class="text-white" data-toggle="counter-up">6</h1>
+                        <h1 class="text-white" data-toggle="counter-up">10</h1>
                         <h6 class="text-uppercase text-white">Clientes<span class="d-block"> atendidos</span></h6>
                      </div>
                   </div>
                   <div class="col-4 px-0">
                      <div class="bg-warning text-center p-4">
-                        <h1 class="text-white" data-toggle="counter-up">450</h1>
+                        <h1 class="text-white" data-toggle="counter-up">488</h1>
                         <h6 class="text-uppercase text-white">Horas <span class="d-block">trabajadas</span></h6>
                      </div>
                   </div>
