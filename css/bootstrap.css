@@ -3171,6 +3171,7 @@ input[type="button"].btn-block {
 
 .dropdown-menu.show {
   display: block;
+  
 }
 
 .dropdown-header {
@@ -4038,6 +4039,7 @@ input[type="button"].btn-block {
   }
   .navbar-expand-sm .navbar-nav .dropdown-menu {
     position: absolute;
+    
   }
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 0.5rem;

@@ -2,12 +2,12 @@
       <!-- header inner -->
       <div class="header">
          <div class="container-fluid">
-            <div class="row">
+            <div class="row" >
                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col logo_section">
                   <div class="full">
                      <div class="center-desk">
                         <div class="logo">
-                           <a href="index.html"><img src="images/logo-blanco.png" alt="#" /></a>
+                           <a href="index.php"><img src="images/logo-blanco.png" alt="#" /></a>
                         </div>
                      </div>
                   </div>
@@ -23,24 +23,24 @@
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                            <ul class="navbar-nav mr-auto">
                               <li class="nav-item active">
-                                 <a class="nav-link" href="index.html">Inicio </a>
+                                 <a class="nav-link" href="index.php"><b>Inicio </b></a>
                               </li>
                               <li class="nav-item dropdown">
                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Marcas
+                                    <b>Marcas</b>
                                  </a>
                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="mupsaServicio.html">Mupsa Servicios</a>
-                                    <a class="dropdown-item" href="mupsaAgencia.html">Mupsa Agencia Creativa</a>
-                                    <a class="dropdown-item" href="mupsanatura.html">D’Mupsa Natural</a>
+                                    <a class="dropdown-item" href="mupsaServicio.php">Mupsa Servicios</a>
+                                    <a class="dropdown-item" href="mupsaAgencia.php">Mupsa Agencia Creativa</a>
+                                    <a class="dropdown-item" href="mupsanatura.php">D’Mupsa Natural</a>
                                  </div>
                               </li>
+                              <!-- <li class="nav-item">
+                                 <a class="nav-link" href="#quienessomos"><b>Quiénes Somos</b></a>
+                              </li> -->
                               <li class="nav-item">
-                                 <a class="nav-link" href="#quienessomos">Quiénes Somos</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#">Contáctanos</a>
+                                 <a class="nav-link" href="#mobile"><b>Contáctanos</b></a>
                               </li>
                            </ul>
                            <!-- <div class="sign_btn"><a href="#">Contáctanos</a></div> -->

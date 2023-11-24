@@ -5,15 +5,15 @@ include_once "header.php";
 <!-- body -->
 
 <body class="main-layout">
-    <!-- loader  -->
+    <!-- loader
     <div class="loader_bg">
         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
     </div>
-    <!-- end loader -->
+    end loader -->
     <!-- header -->
     <?php
-   include_once "navbar.php";
-   ?>
+    include_once "navbar.php";
+    ?>
 
     <div class="containerSer1">
         <img src="images/6.png" alt="">
@@ -47,14 +47,10 @@ include_once "header.php";
     <div id="carouselExampleIndicators" class="carousel slide">
 
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -172,22 +168,50 @@ include_once "header.php";
                     </div>
                 </div>
             </div>
+            <div class="carousel-item">
+                <div id="about" class="about">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-md-6">
+                                <div class="about_img">
+                                    <figure><img src="images/agencia-nuevo (1).png" alt="#" /></figure>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="titlepage">
+                                    <div class="titlepage">
+                                        <h2>Estrategias de marketing corporativas</h2>
+                                        <span></span>
+                                        <br>
+                                        <ul class="lead">
+                                            <li>Activaciones BTL.</li>
+                                            <li>Merchandising.</li>
+                                            <li>Anfitrionas.</li>
+                                            <li>Juegos.</li>
+                                            <li>Banners.</li>
+                                            <li>Otros.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Botón de retroceso personalizado  -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <img src="images/atras.png" alt="Retroceso" />
         </button>
 
         <!-- Botón de avanzar personalizado  -->
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
             <img src="images/proximo.png" alt="Avance" />
         </button>
     </div>
 
     <!-- mobile -->
-    <div id="mobile" class="mobile">
+    <div id="infoAge" class="infoAge">
         <div class="container">
             <div class="row d_flex">
                 <div class="col-md-8">
@@ -203,27 +227,27 @@ include_once "header.php";
                         </p>
                         <div class="logoimg">
                             <div class="iconimg">
-                                <img src="images/face.png" alt="">
+                                <img src="images/facebook_agencia.png" alt="">
                             </div>
                             <div class="icontext">
-                                <a href="">@GrupoMupsaPerú</a>
+                                <a href="https://www.facebook.com/profile.php?id=100093710454702&mibextid=LQQJ4d">@GrupoMupsaPerú</a>
                             </div>
 
                         </div>
                         <div class="logoimg">
                             <div class="iconimg">
-                                <img src="images/instagram.png" alt="">
+                                <img src="images/instagram_agencia.png" alt="">
                             </div>
                             <div class="icontext">
-                                <a href="">@GrupoMupsaPerú</a>
+                                <a href="https://instagram.com/mupsa.agencia?igshid=YzAwZjE1ZTI0Zg==">@GrupoMupsaPerú</a>
                             </div>
                         </div>
                         <div class="logoimg">
                             <div class="iconimg">
-                                <img src="images/whatsapp.png" alt="">
+                                <img src="images/whatsapp_agencia.png" alt="">
                             </div>
                             <div class="icontext">
-                                <a href="">+51 972443334</a>
+                                <a href="https://w.app/MUPSA">+51 972443334</a>
                             </div>
                         </div>
                     </div>
@@ -233,9 +257,31 @@ include_once "header.php";
     </div>
     <!-- end mobile -->
     <!--  footer -->
-    <?php
-   include_once "footer.php";
-   ?>
-</body>
 
+    
+    <?php
+    include_once "footer.php";
+    ?>
+
+<div class="sticky-container">
+         <ul class="sticky">
+            <li>
+               <a href="https://www.facebook.com/profile.php?id=100093710454702&mibextid=LQQJ4d" target="_blank">
+                  <img src="images/facebook.png" width="32" height="32">
+               </a>
+            </li>
+            <li>
+               <a href="https://w.app/MUPSA" target="_blank">
+                  <img src="images/whatsapp1.png" width="32" height="32">
+               </a>
+            </li>
+            <li>
+               <a href="https://instagram.com/mupsa.agencia?igshid=YzAwZjE1ZTI0Zg==" target="_blank">
+                  <img src="images/logotipo-de-instagram.png" width="32" height="32">
+               </a>
+            </li>
+
+         </ul>
+      </div>
+</body>
 </html>

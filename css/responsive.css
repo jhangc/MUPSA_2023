@@ -13,6 +13,8 @@
         font-size: 35px;
         /* line-height: 1.5; */
     }
+
+    
 }
 
 @media (min-width: 1342px) and (max-width: 1550px) {
@@ -30,10 +32,10 @@
 
     /* footer */
 
-    .iconredes{
+    .iconredes {
         display: flex;
-   
-   }
+
+    }
 
     /* PAGINA NATURAL */
 
@@ -69,14 +71,14 @@
         line-height: 32px;
     }
 
-     /* footer */
+    /* footer */
 
-     .iconredes img{
+    .iconredes img {
         display: flex;
         flex-direction: column;
         padding-top: 10px;
-   
-   }
+
+    }
 
 
     /*PAGINA SERVICIOS */
@@ -89,9 +91,9 @@
         font-size: 22px;
     }
 
-     /* PAGINA NATURAL */
+    /* PAGINA NATURAL */
 
-     .textoEncima p {
+    .textoEncima p {
         top: 26%;
         width: 40%;
         transform: translate(45%);
@@ -181,14 +183,14 @@
 
     }
 
-     /* footer */
+    /* footer */
 
-     .iconredes img{
+    .iconredes img {
         display: flex;
         flex-direction: column;
         padding-top: 10px;
-   
-   }
+
+    }
 
 
 
@@ -210,9 +212,9 @@
         /* Ajusta el espacio dentro del botón */
     }
 
-     /* PAGINA NATURAL */
+    /* PAGINA NATURAL */
 
-     .textoEncima p {
+    .textoEncima p {
         top: 26%;
         width: 40%;
         transform: translate(45%);
@@ -289,6 +291,10 @@
         display: none;
     }
 
+
+    
+
+    
     /* mobile section   */
 
 
@@ -321,14 +327,14 @@
 
     /* footer */
 
-    .iconredes img{
+    .iconredes img {
         display: flex;
         flex-direction: column;
         padding-top: 10px;
-   
-   }
 
+    }
 
+    
 
     /*PAGINA SERVICIOS */
 
@@ -346,9 +352,9 @@
         display: none;
     }
 
-     /* PAGINA NATURAL */
+    /* PAGINA NATURAL */
 
-     .textoEncima p {
+    .textoEncima p {
         top: 26%;
         width: 40%;
         transform: translate(45%);
@@ -472,6 +478,7 @@
         text-align: center !important;
     }
 
+
     /* secion mision, vision  */
     .container-fluidTwo {
         margin-top: -60px;
@@ -490,7 +497,7 @@
 
     /* end secion mision, vision  */
 
-    
+
 
     /*PAGINA SERVICIOS */
 
@@ -507,6 +514,7 @@
     .containerSer1 .btn-group button {
         display: none;
     }
+
     .containerSer1 h2 {
         display: none;
     }
@@ -545,48 +553,6 @@
         width: 60%;
     }
 
-    .carousel-caption h1 {
-        font-size: 30px;
-        line-height: 41px;
-        padding-bottom: 0px;
-    }
-
-    .carousel-caption span {
-        font-size: 25px;
-        line-height: 30px;
-    }
-
-    .carousel-caption h5 {
-        display: none;
-    }
-
-    .carousel-item img {
-        height: 400px;
-    }
-
-    .carousel-caption .btnContacto a {
-        font-size: 15px;
-        padding: 5px 0px;
-        max-width: 120px;
-        border-radius: 25px;
-        margin-top: 30px;
-    }
-
-    .carousel-indicators li {
-        width: 10px;
-        height: 10px;
-        border-radius: 10px;
-    }
-
-
-    .carousel-caption a {
-        margin-top: 20px;
-    }
-
-    .sign_btn {
-        display: none;
-    }
-
     .titlepage h2 {
         margin-top: 30px;
         font-size: 22px;
@@ -619,14 +585,6 @@
         /* Reduce el tamaño de la imagen de viñeta en móvil */
     }
 
-    /* end secion mision, vision  */
-
-
-    /* carousel index */
-
-    /* .carouselIndex .carousel-item img{
-        height: 10% !important;
-    } */
 
     .mobile_img {
         margin-bottom: 30px;
@@ -733,9 +691,9 @@
         display: none;
     }
 
-     /* PAGINA NATURAL */
+    /* PAGINA NATURAL */
 
-     .textoEncima p {
+    .textoEncima p {
         top: 30%;
         font-size: 11px;
         font-weight: 300;

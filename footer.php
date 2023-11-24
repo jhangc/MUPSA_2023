@@ -1,6 +1,6 @@
 <footer>
       <div class="footer">
-         <div class="row border-top">
+         <div class="row border-top" style="margin: 0 !important;">
             <div class="col-md-5">
                <img src="images/logo4.png" alt="Imagen">
             </div>
@@ -20,9 +20,15 @@
             <div class="col-md-2">
                <div class="row">
                   <div class="iconredes">
-                     <img src="images/icono-fb.png" alt="Imagen" class="mx-2">
+                  <a href="https://www.facebook.com/profile.php?id=100093969678870&mibextid=LQQJ4d" target="_blank">
+                     <img src="images/icono-fb.png"  alt="Imagen" class="mx-2">
+                  </a>
+                  <a href="https://w.app/MUPSA" target="_blank">
                      <img src="images/icono-whats.png" alt="Imagen" class="mx-2">
+                  </a>
+                  <a href="https://instagram.com/mupsa.servicios?igshid=YzAwZjE1ZTI0Zg==" target="_blank">
                      <img src="images/icono-ig.png" alt="Imagen" class="mx-2">
+                  </a>
                   </div>
                </div>
             </div>
@@ -51,3 +57,6 @@
    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
    <script src="js/custom.js"></script>
    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+   <script src="css/swiper/swiper-bundle.min.js"></script>
+   <script src="js/script_clients.js"></script>

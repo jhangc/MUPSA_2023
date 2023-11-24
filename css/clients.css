@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+
+
+#quienessomos1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000; /* Ajusta este valor según sea necesario para que el contenedor aparezca encima de otros elementos */
+}
+.clients{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.clients .clients-slider .swiper-slide img {
+    opacity: 0.80;
+    transition: 0.3s;
+  }
+  
+  .clients .clients-slider .swiper-slide img:hover {
+    opacity: 1;
+  }
+  
+  .clients .clients-slider .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #4154f1;
+  }
+  
+  .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #4154f1;
+  }
+  

@@ -1,0 +1,205 @@
+/** mobile section AGENCIA**/
+
+.clients {
+    background: url(../images/fondo_logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.infoAge {
+    background: url(../images/informes-agencia7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 120px 0;
+}
+
+.infoAge .titlepage {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10%;
+
+}
+
+.infoAge .titlepage h2 {
+    color: #1493b3;
+}
+
+.infoAge .titlepage span {
+    margin-left: 58px;
+}
+
+.infoAge .titlepage p {
+    color: black;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.infoAge .titlepage .logoimg {
+    /* color: black;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400; */
+    padding: 10px;
+    display: flex;
+
+
+}
+
+.infoAge .titlepage .logoimg .iconimg {
+    width: 35%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 10px;
+
+
+}
+
+.infoAge .titlepage .logoimg .icontext {
+    width: 65%;
+    text-align: left;
+    
+}
+.infoAge .icontext a {
+    color: #1493b3;
+    
+}
+
+.infoAge .titlepage .read_more {
+    border: #fff solid 3px;
+    color: #fff;
+}
+
+/** mobile section PRODUCTOS**/
+
+.infoPro {
+    background: url(../images/informes-cafe.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 120px 0;
+}
+
+.infoPro .titlepage {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10%;
+
+}
+
+.infoPro .titlepage h2 {
+    color: #349b57;
+}
+
+.infoPro .titlepage span {
+    margin-left: 58px;
+}
+
+.infoPro .titlepage p {
+    color: black;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.infoPro .titlepage .logoimg {
+    /* color: black;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400; */
+    padding: 10px;
+    display: flex;
+
+
+}
+
+.infoPro .titlepage .logoimg .iconimg {
+    width: 35%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 10px;
+
+
+}
+
+.infoPro .titlepage .logoimg .icontext {
+    width: 65%;
+    text-align: left;
+    
+}
+.infoPro .icontext a {
+    color: #349b57;
+    
+}
+
+
+.infoPro .titlepage .read_more {
+    border: #fff solid 3px;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .infoAge {
+        background: url(../images/fondo_agencia.webp);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 60px 0;
+    }
+    .infoPro {
+        background: url(../images/fondo_cafe.webp);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 120px 0;
+    }
+    .mobile{
+        background: url(../images/fondo_principal.webp);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 120px 0;
+    }
+}
+
+@media (max-width: 575px) {
+.carousel-caption h1 {
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 0px;
+}
+
+.carousel-caption span {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.carousel-caption h5 {
+    display: none;
+}
+
+.carousel-item img {
+    height: 400px;
+}
+
+.carousel-caption .btnContacto a {
+    display: none;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+
+.carousel-caption a {
+    margin-top: 20px;
+}
+
+.sign_btn {
+    display: none;
+}}

@@ -5,11 +5,11 @@ include_once "header.php";
 <!-- body -->
 
 <body class="main-layout">
-    <!-- loader  -->
+    <!-- loader  
     <div class="loader_bg">
         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
     </div>
-    <!-- end loader -->
+     end loader -->
     <!-- header -->
     <?php
    include_once "navbar.php";
@@ -47,7 +47,7 @@ include_once "header.php";
         </div>
     </div>
     <!-- mobile -->
-    <div id="mobile" class="mobile">
+    <div id="infoPro" class="infoPro" >
         <div class="container">
             <div class="row d_flex">
                 <div class="col-md-8">
@@ -63,27 +63,27 @@ include_once "header.php";
                         </p>
                         <div class="logoimg">
                             <div class="iconimg">
-                                <img src="images/face.png" alt="">
+                                <img src="images/facebook_cafe.png" alt="">
                             </div>
                             <div class="icontext">
-                                <a href="">@GrupoMupsaPerú</a>
+                                <a href="https://www.facebook.com/cafegustu?mibextid=LQQJ4d">@GrupoMupsaPerú</a>
                             </div>
 
                         </div>
                         <div class="logoimg">
                             <div class="iconimg">
-                                <img src="images/instagram.png" alt="">
+                                <img src="images/instagram_cafe.png" alt="">
                             </div>
                             <div class="icontext">
-                                <a href="">@GrupoMupsaPerú</a>
+                                <a href="https://instagram.com/dmupsa.natural?igshid=YzAwZjE1ZTI0Zg==">@GrupoMupsaPerú</a>
                             </div>
                         </div>
                         <div class="logoimg">
                             <div class="iconimg">
-                                <img src="images/whatsapp.png" alt="">
+                                <img src="images/whatsapp_cafe.png" alt="">
                             </div>
                             <div class="icontext">
-                                <a href="">+51 972443334</a>
+                                <a href="https://w.app/MUPSA">+51 972443334</a>
                             </div>
                         </div>
                     </div>
@@ -96,6 +96,27 @@ include_once "header.php";
     <?php
    include_once "footer.php";
    ?>
+
+<div class="sticky-container">
+         <ul class="sticky">
+            <li>
+               <a href="https://www.facebook.com/cafegustu?mibextid=LQQJ4d" target="_blank">
+                  <img src="images/facebook.png" width="32" height="32">
+               </a>
+            </li>
+            <li>
+               <a href="https://w.app/MUPSA" target="_blank">
+                  <img src="images/whatsapp1.png" width="32" height="32">
+               </a>
+            </li>
+            <li>
+               <a href="https://instagram.com/dmupsa.natural?igshid=YzAwZjE1ZTI0Zg==" target="_blank">
+                  <img src="images/logotipo-de-instagram.png" width="32" height="32">
+               </a>
+            </li>
+
+         </ul>
+      </div>
 </body>
 
 </html>

@@ -5,23 +5,69 @@ include_once "header.php";
 <!-- body -->
 
 <body class="main-layout">
-   <!-- loader  -->
+   <!-- loader 
    <div class="loader_bg">
       <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-   </div>
-   <!-- end loader -->
-   <!-- header -->
-   <?php
-   include_once "navbar.php";
-   ?>
-   <!-- end header inner -->
-   <!-- end header -->
+   </div> -->
+   <header inner -->
+      <div class="header">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col logo_section">
+                  <div class="full">
+                     <div class="center-desk">
+                        <div class="logo">
+                           <a href="index.php"><img src="images/logo-blanco.png" alt="#" /></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+                  <div class="header_information">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="index.php"><b>Inicio </b></a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b>Marcas</b>
+                                 </a>
+                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="mupsaServicio.php">Mupsa Servicios</a>
+                                    <a class="dropdown-item" href="mupsaAgencia.php">Mupsa Agencia Creativa</a>
+                                    <a class="dropdown-item" href="mupsanatura.php">D’Mupsa Natural</a>
+                                 </div>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#quienessomos"><b>Quiénes Somos</b></a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#mobile"><b>Contáctanos</b></a>
+                              </li>
+                           </ul>
+                           <!-- <div class="sign_btn"><a href="#">Contáctanos</a></div> -->
+
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+
    <!-- banner -->
    <div id="myCarousel" class="carousel slide banner_main" data-ride="carousel">
       <ol class="carousel-indicators">
          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
          <li data-target="#myCarousel" data-slide-to="1"></li>
          <li data-target="#myCarousel" data-slide-to="2"></li>
+         <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
          <div class="carousel-item active">
@@ -69,32 +115,25 @@ include_once "header.php";
                </div>
             </div>
          </div>
-         <!-- <div class="carousel-item">
-               <img class="third-slide" src="images/banner.jpg" alt="four slide">
-               <div class="container">
-                  <div class="carousel-caption relative">
-                     <h1> <span>We Provide</span> Web Services</h1>
-                      <a href="#contact">Contact Us</a> 
+         <div class="carousel-item">
+            <img class="fourth-slide" src="images/4.png" alt="Third slide">
+            <div class="container">
+               <div class="carousel-caption relative">
+                  <h1> Productos 100% orgánicos, con la mejor calidad.</h1>
+                  <span></span>
+                  <h5>Estamos aqui para convertirnos en el socio estratégico que tu empresa necesita. En Grupo Mupsa
+                     encontrarás los mejores productos y servicios corportativos para hacer crecer tu negocio.
+                  </h5>
+                  <div class="btnContacto">
+                     <a href="#contact">Contáctanos</a>
                   </div>
                </div>
             </div>
-            <div class="carousel-item">
-               <img class="third-slide" src="images/banner.jpg" alt="five slide">
-               <div class="container">
-                  <div class="carousel-caption relative">
-                     <h1> <span>We Provide</span> Web Services</h1>
-                     <a href="#contact">Contact Us</a>
-                  </div>
-               </div>
-            </div> -->
+         </div>
+
+
       </div>
-      <!-- <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-         <span class="sr-only">Next</span> -->
+
       </a>
    </div>
    <!-- end banner -->
@@ -129,7 +168,7 @@ include_once "header.php";
                      con el debido asesoramiento y la formalidad que amerita todo emprendedor,
                      después de algunos años volvimos a reunirnos para plasmar nuestra idea
                      de negocios y crear la empresa Grupo Mupsa Perú SAC.</p>
-                  <!-- <a class="read_more">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a> -->
+
                </div>
             </div>
 
@@ -142,10 +181,10 @@ include_once "header.php";
    <div class="container-fluidTwo">
       <div class="col-12">
          <div class="row">
-            <div class="col-xl-5 col-lg-0 col-md-0  col-sm-0 imageMision">
+            <div class="col-lg-6 col-lg-0 col-md-0  col-sm-0 imageMision">
                <img class="rounded mx-auto d-block" src="images/ilustracion.png" alt="Imagen">
             </div>
-            <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 row">
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 row" style="margin: 0 !important;">
                <div class="col-md-4 fila">
                   <div class="iconfluidTwo">
                      <img class="rounded" src="images/icono11.png" alt="Imagen">
@@ -153,7 +192,7 @@ include_once "header.php";
                   <div class="mt-4">
                      <h5>Misión</h5>
                      <p class="lead"> Estamos comprometidos a brindar los mejores productos, asesorías servicios,
-                        con la ﬁnalidad de mejorar la eﬁcacia y eﬁciencia de nuestros cliente, a través de nuestros
+                        con la finalidad de mejorar la eficacia y eficiencia de nuestros cliente, a través de nuestros
                         rubros especializados
                      </p>
                   </div>
@@ -165,8 +204,7 @@ include_once "header.php";
                   <div class="mt-4">
                      <h5>Visión</h5>
                      <p class="lead"> Al 2030 Ser una empresa reconocida a nivel corporativo, apoyándose en la
-                        tecnologia
-                        para brindar el mejor servicio a nivel nacional e internacional
+                        tecnologia para brindar el mejor servicio a nivel nacional e internacional
                      </p>
                   </div>
                </div>
@@ -193,44 +231,127 @@ include_once "header.php";
 
    </div>
 
+   <style>
+      @media (max-width: 991px) {
+         .carousel-item img {
+            height: auto;
+         }
 
-   <div id="carouselExampleIndicators carouselIndex" class="carousel slide">
-
-      <!-- <ol class="carousel-indicators">
-         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-         <li data-target="#myCarousel" data-slide-to="1"></li>
-         <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol> -->
-      <div class="carousel-indicators">
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
+         .text-secondslide {
+            display: none;
+         }
+      }
+   </style>
+   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active">
-            <img src="images/marca1.png" class="d-block w-100 h-100" alt="...">
+            <img src="images/marca1.webp" class="d-block w-100" alt="...">
+            <div class="text-secondslide">
+               <h5>En Mupsa servicios podrás encontrar una gran variedad de servicios de primera calidad a disposición de tu empresa, tales como:
+                  Alquiler de vehiculos, remodelaciones de inmuebles, venta de productos industriales, bordados corporativos, entre otros.
+               </h5>
+            </div>
+
          </div>
          <div class="carousel-item">
-            <img src="images/marca2.png" class="d-block w-100" alt="...">
+            <img src="images/marca2.webp" class="d-block w-100 " alt="...">
+            <div class="text-secondslide">
+               <h5>En Mupsa creativa te brindamos asesoria y consultoria en gestión de marca, desarrollando ideas originales en marketing y
+                  branding, proponiendo técnicas y diseños innovadores.
+               </h5>
+            </div>
          </div>
          <div class="carousel-item">
-            <img src="images/marca3.png" class="d-block w-100" alt="...">
+            <img src="images/marca3.webp" class="d-block w-100 " alt="...">
+            <div class="text-secondslide">
+               <h5>En D´Mupsa natural te ofrecemos productos de calidad 100% orgánicos convencidos de que la alimentación es importante para nuestra salud y organismo.
+               </h5>
+            </div>
          </div>
       </div>
-      <!-- Botón de retroceso personalizado -->
+      <!-- Botones de retroceso y avance personalizados con tus imágenes -->
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
          <img src="images/atras.png" alt="Retroceso" />
       </button>
-
-      <!-- Botón de avanzar personalizado -->
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
          <img src="images/proximo.png" alt="Avance" />
       </button>
    </div>
 
+   <!-- About Start -->
+   <!-- <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="section-title position-relative mb-4">
+                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">About Us</h6>
+                        <h1 class="display-4">First Choice For Online Education Anywhere</h1>
+                    </div>
+                    <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                    <div class="row pt-3 mx-0">
+                        <div class="col-3 px-0">
+                            <div class="bg-success text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">123</h1>
+                                <h6 class="text-uppercase text-white">Available<span class="d-block">Subjects</span></h6>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0">
+                            <div class="bg-primary text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">1234</h1>
+                                <h6 class="text-uppercase text-white">Online<span class="d-block">Courses</span></h6>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0">
+                            <div class="bg-secondary text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">123</h1>
+                                <h6 class="text-uppercase text-white">Skilled<span class="d-block">Instructors</span></h6>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0">
+                            <div class="bg-warning text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">1234</h1>
+                                <h6 class="text-uppercase text-white">Happy<span class="d-block">Students</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+   <!-- Título "Quiénes Somos" -->
+   <div class="custom-container" id="quienessomos1">
+      <div class="custom-border-top"></div>
+      <div class="p-2 text-center custom-bg-blue">
+         <h2>Nuestros clientes</h2>
+      </div>
+   </div>
+   <!-- ======= Clients Section ======= -->
+   <section id="clients" class="clients">
+      <div class="container" data-aos="fade-up">
+         <div class="clients-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+               <div class="swiper-slide"><img src="images/disol_logo.png" class="img-fluid" alt=""></div>
+               <div class="swiper-slide"><img src="images/LOGO_PELOTAS_WIÑAY.png" class="img-fluid" alt=""></div>
+               <div class="swiper-slide"><img src="images/logo-mobil.png" class="img-fluid" alt=""></div>
+               <div class="swiper-slide"><img src="images/LOGO_PELOTA_WAYU_PERU.png" class="img-fluid" alt=""></div>
+               <div class="swiper-slide"><img src="images/disol_logo.png" class="img-fluid" alt=""></div>
+               <div class="swiper-slide"><img src="images/LOGO_PELOTAS_WIÑAY.png" class="img-fluid" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </div>
+
+   </section><!-- End Clients Section -->
 
 
-   <!-- mobile -->
+
+   <!-- Mayor Información -->
    <div id="mobile" class="mobile">
       <div class="container">
          <div class="row d_flex">
@@ -249,7 +370,7 @@ include_once "header.php";
                         <img src="images/face.png" alt="">
                      </div>
                      <div class="icontext">
-                        <a href="">@GrupoMupsaPerú</a>
+                        <a href="https://www.facebook.com/profile.php?id=100093969678870&mibextid=LQQJ4d">@GrupoMupsaPerú</a>
                      </div>
 
                   </div>
@@ -258,7 +379,7 @@ include_once "header.php";
                         <img src="images/instagram.png" alt="">
                      </div>
                      <div class="icontext">
-                        <a href="">@GrupoMupsaPerú</a>
+                        <a href="https://instagram.com/mupsa.servicios?igshid=YzAwZjE1ZTI0Zg==">@GrupoMupsaPerú</a>
                      </div>
                   </div>
                   <div class="logoimg">
@@ -266,7 +387,7 @@ include_once "header.php";
                         <img src="images/whatsapp.png" alt="">
                      </div>
                      <div class="icontext">
-                        <a href="">+51 972443334</a>
+                        <a href="https://w.app/MUPSA">+51 972443334</a>
                      </div>
                   </div>
                </div>
@@ -276,98 +397,30 @@ include_once "header.php";
    </div>
    <!-- end mobile -->
    <!--  footer -->
-   <!-- <div class="container-fluidThree mb-1">
-      <div class="footerContainer">
-         <div class="row">
-            <div class="col-md-5 col-sm-12 d-flex justify-content-center align-items-center logfooter" >
-               <img src="images/logo4.png" alt="Imagen">
-            </div>
-            <div class="col-md-5 row inffooter">
-               <p class="mb-1 tituloContacto" style="line-height: 1.2;">Contacto</p>
-               <p class="mb-1 t1" style="line-height: 1.2;"><b>Cel.:</b> +51 972443334</p>
-               <p class="mb-1 t1" style="line-height: 1.2;"><b>Email: </b>grupomupsa@gmail.com</p>
-               <p class="mb-0 t1" style="line-height: 1.2;"><b>Dirección:</b> Madre selva #150 - Urb. Federico
-                  Villarreal -
-                  Chiclayo</p>
-            </div>
 
-            <div class="col-md-2 col d-flex justify-content-center align-items-center iconredes">
-               <img src="images/face.png" alt="Imagen" class="mx-2">
-               <img src="images/whatsapp.png" alt="Imagen" class="mx-2">
-               <img src="images/instagram.png" alt="Imagen" class="mx-2">
-            </div>
-         </div>
-      </div>
-      <div class="footerderechos">
-         &#169 2023 Grupo Mupsa Perú. Todos los derechos reservados. Diseñado por Mupsa Agencia Creativa
-      </div>
-   </div> -->
 
-   <!-- clients 
-   <div class="clients">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-6 offset-md-3">
-               <div class="titlepage">
-                  <h2>What is Say clients</h2>
-                  <span></span>
-               </div>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-md-12">
-               <div class="clients_box">
-                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                     alteration in some form, by injected humour, or randomised words which don't look even slightly
-                     believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
-                     anything embarrassing hidden in the middle of text.</p>
-               </div>
-               <div class="jonu">
-                  <img src="images/cross_img.png" alt="#" />
-                  <h3>Jone due</h3>
-                  <strong>(sure there isn't)</strong>
-                  <a class="read_more" href="#">Get A Quote</a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   end clients 
-    contact 
-   <div id="contact" class="contact">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-12">
-               <div class="titlepage">
-                  <h2>Request A call back</h2>
-               </div>
-            </div>
-            <div class="col-md-6 offset-md-3">
-               <form id="request" class="main_form">
-                  <div class="row">
-                     <div class="col-md-12 ">
-                        <input class="contactus" placeholder="Full Name" type="type" name="Full Name">
-                     </div>
-                     <div class="col-md-12">
-                        <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">
-                     </div>
-                     <div class="col-md-12">
-                        <input class="contactus" placeholder="Email" type="type" name="Email">
-                     </div>
-                     <div class="col-md-12">
-                        <textarea class="contactus" placeholder="Message" type="type" Message="Name">Message </textarea>
-                     </div>
-                     <div class="col-sm-12">
-                        <button class="send_btn">Send</button>
-                     </div>
-                  </div>
-               </form>
-            </div>
-         </div>
-      </div>
-   </div>
-   end contact -->
    <!--  footer  -->
+   <div class="sticky-container">
+      <ul class="sticky">
+         <li>
+            <a href="https://www.facebook.com/profile.php?id=100093969678870&mibextid=LQQJ4d" target="_blank">
+               <img src="images/facebook.png" width="32" height="32">
+            </a>
+         </li>
+         <li>
+            <a href="https://w.app/MUPSA" target="_blank">
+               <img src="images/whatsapp1.png" width="32" height="32">
+            </a>
+         </li>
+         <li>
+            <a href="https://instagram.com/mupsa.servicios?igshid=YzAwZjE1ZTI0Zg==" target="_blank">
+               <img src="images/logotipo-de-instagram.png" width="32" height="32">
+            </a>
+         </li>
+
+      </ul>
+   </div>
+
    <?php
    include_once "footer.php";
    ?>

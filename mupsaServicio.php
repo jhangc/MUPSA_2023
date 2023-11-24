@@ -5,11 +5,11 @@ include_once "header.php";
 <!-- body -->
 
 <body class="main-layout">
-    <!-- loader  -->
+    <!-- loader 
     <div class="loader_bg">
         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
     </div>
-    <!-- end loader -->
+    end loader -->
     <!-- header -->
     <?php
    include_once "navbar.php";
@@ -223,6 +223,39 @@ include_once "header.php";
                     </div>
                 </div>
             </div>
+            <div class="carousel-item">
+                <div id="about" class="about">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-md-6">
+                                <div class="about_img">
+                                    <figure><img src="images/servicios-nuevo (1).png" alt="#" /></figure>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="titlepage">
+                                    <h2>Venta de productos comerciales</h2>
+                                    <span></span>
+                                    <p style="text-align: justify;">Venta de productos para publicidad de tu empresa, con garantía y respaldo.
+                                    </p>
+                                    <h3>Detallamos los productos:</h3>
+                                    <ul class="lead">
+                                        <li>Banners con estructura metalica.</li>
+                                        <li>Viniles enmarcados.</li>
+                                        <li>Ploteo de Viniles.</li>
+                                        <li>Stickers para marcas.</li>
+                                        <li>Pintado de local.</li>
+                                        <li>Pintado de logos y letras.</li>
+                                        <li>Todo tipo de letreros.</li>
+                                        <li>Entre otras de diversas formas y tamaños.</li>  
+                                     </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Botón de retroceso personalizado  -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -238,7 +271,7 @@ include_once "header.php";
     </div>
 
     <!-- mobile -->
-    <div id="mobile" class="mobile">
+    <div id="mobile" class="mobile" >
         <div class="container">
             <div class="row d_flex">
                 <div class="col-md-8">
@@ -257,7 +290,7 @@ include_once "header.php";
                                 <img src="images/face.png" alt="">
                             </div>
                             <div class="icontext">
-                                <a href="">@GrupoMupsaPerú</a>
+                                <a href="https://www.facebook.com/profile.php?id=100093969678870&mibextid=LQQJ4d">@GrupoMupsaPerú</a>
                             </div>
 
                         </div>
@@ -266,7 +299,7 @@ include_once "header.php";
                                 <img src="images/instagram.png" alt="">
                             </div>
                             <div class="icontext">
-                                <a href="">@GrupoMupsaPerú</a>
+                                <a href="https://instagram.com/mupsa.servicios?igshid=YzAwZjE1ZTI0Zg==">@GrupoMupsaPerú</a>
                             </div>
                         </div>
                         <div class="logoimg">
@@ -274,7 +307,7 @@ include_once "header.php";
                                 <img src="images/whatsapp.png" alt="">
                             </div>
                             <div class="icontext">
-                                <a href="">+51 972443334</a>
+                                <a href="https://w.app/MUPSA">+51 972443334</a>
                             </div>
                         </div>
                     </div>
@@ -287,6 +320,27 @@ include_once "header.php";
     <?php
    include_once "footer.php";
    ?>
+
+<div class="sticky-container">
+         <ul class="sticky">
+            <li>
+               <a href="https://www.facebook.com/profile.php?id=100093969678870&mibextid=LQQJ4d" target="_blank">
+                  <img src="images/facebook.png" width="32" height="32">
+               </a>
+            </li>
+            <li>
+               <a href="https://w.app/MUPSA" target="_blank">
+                  <img src="images/whatsapp1.png" width="32" height="32">
+               </a>
+            </li>
+            <li>
+               <a href="https://instagram.com/mupsa.servicios?igshid=YzAwZjE1ZTI0Zg==" target="_blank">
+                  <img src="images/logotipo-de-instagram.png" width="32" height="32">
+               </a>
+            </li>
+
+         </ul>
+      </div>
 </body>
 
 </html>
