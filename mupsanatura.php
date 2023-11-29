@@ -66,7 +66,7 @@ include_once "header.php";
                                 <img src="images/facebook_cafe.png" alt="">
                             </div>
                             <div class="icontext">
-                                <a href="https://www.facebook.com/cafegustu?mibextid=LQQJ4d">@GrupoMupsaPerú</a>
+                                <a href="https://www.facebook.com/cafegustu?mibextid=LQQJ4d">@D'MupsaPerú</a>
                             </div>
 
                         </div>
@@ -75,7 +75,7 @@ include_once "header.php";
                                 <img src="images/instagram_cafe.png" alt="">
                             </div>
                             <div class="icontext">
-                                <a href="https://instagram.com/dmupsa.natural?igshid=YzAwZjE1ZTI0Zg==">@GrupoMupsaPerú</a>
+                                <a href="https://instagram.com/dmupsa.natural?igshid=YzAwZjE1ZTI0Zg==">@D'MupsaPerú</a>
                             </div>
                         </div>
                         <div class="logoimg">

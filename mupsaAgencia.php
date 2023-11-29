@@ -230,7 +230,7 @@ include_once "header.php";
                                 <img src="images/facebook_agencia.png" alt="">
                             </div>
                             <div class="icontext">
-                                <a href="https://www.facebook.com/profile.php?id=100093710454702&mibextid=LQQJ4d">@GrupoMupsaPerú</a>
+                                <a href="https://www.facebook.com/profile.php?id=100093710454702&mibextid=LQQJ4d">@MupsaAgenciaCreativa</a>
                             </div>
 
                         </div>
@@ -239,7 +239,7 @@ include_once "header.php";
                                 <img src="images/instagram_agencia.png" alt="">
                             </div>
                             <div class="icontext">
-                                <a href="https://instagram.com/mupsa.agencia?igshid=YzAwZjE1ZTI0Zg==">@GrupoMupsaPerú</a>
+                                <a href="https://instagram.com/mupsa.agencia?igshid=YzAwZjE1ZTI0Zg==">@MupsaAgenciaCreativa</a>
                             </div>
                         </div>
                         <div class="logoimg">

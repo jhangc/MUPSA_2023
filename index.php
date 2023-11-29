@@ -158,16 +158,12 @@ include_once "header.php";
             </div>
             <div class="col-md-6">
                <div class="titlepage">
-                  <h2>Nuestra Historia</h2>
-                  <span></span>
-                  <p style="text-align: justify;">Está idea de negocio nace de dos compañeros de aula que
-                     estudiaban
-                     una misma carrera universitaria, en ese sentido inician sus actividades
-                     comerciales de manera informal, en el alquiler de camionetas y venta
-                     de agua de mesa, negocios que no llegaron a buen puerto por no contar
-                     con el debido asesoramiento y la formalidad que amerita todo emprendedor,
-                     después de algunos años volvimos a reunirnos para plasmar nuestra idea
-                     de negocios y crear la empresa Grupo Mupsa Perú SAC.</p>
+                  <!-- <h2>Nuestra Historia</h2> -->
+                  <!-- <span></span> -->
+                  <p style="text-align: justify;">Somos Grupo Mupsa Perú
+               una empresa que brinda productos y servicios a nivel corporativo, cuya 
+               finalidad es ofrecer calidad, confianza y compromiso en cada acción ejecutada, llegando
+               hacer un socio estratégico para cada uno de nuestros clientes a corto y largo plazo.</p>
 
                </div>
             </div>
@@ -410,6 +406,11 @@ include_once "header.php";
          <li>
             <a href="https://instagram.com/mupsa.servicios?igshid=YzAwZjE1ZTI0Zg==" target="_blank">
                <img src="images/logotipo-de-instagram.png" width="32" height="32">
+            </a>
+         </li>
+         <li>
+            <a href="https://www.linkedin.com/company/grupo-mupsa-per%C3%BA/" target="_blank">
+               <img src="images/linkedin2.png" width="32" height="32">
             </a>
          </li>
 

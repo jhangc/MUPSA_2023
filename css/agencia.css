@@ -50,7 +50,7 @@
 }
 
 .infoAge .titlepage .logoimg .iconimg {
-    width: 35%;
+    width: 30%;
     display: flex;
     align-items: end;
     justify-content: end;
@@ -60,9 +60,8 @@
 }
 
 .infoAge .titlepage .logoimg .icontext {
-    width: 65%;
-    text-align: left;
-    
+    width: 70%;
+    text-align: left;    
 }
 .infoAge .icontext a {
     color: #1493b3;
