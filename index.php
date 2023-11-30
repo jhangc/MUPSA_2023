@@ -5,20 +5,16 @@ include_once "header.php";
 <!-- body -->
 
 <body class="main-layout">
-   <!-- loader 
-   <div class="loader_bg">
-      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-   </div> -->
+
+   <!-- contenido del encabezado -->
    <header inner -->
       <div class="header">
          <div class="container-fluid">
             <div class="row">
                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col logo_section">
                   <div class="full">
-                     <div class="center-desk">
-                        <div class="logo">
-                           <a href="index.php"><img src="images/logo-blanco.png" alt="#" /></a>
-                        </div>
+                     <div class="logo">
+                        <a href="index.php"><img src="images/logo-blanco.png" alt="#" /></a>
                      </div>
                   </div>
                </div>
@@ -50,8 +46,6 @@ include_once "header.php";
                                  <a class="nav-link" href="#mobile"><b>Contáctanos</b></a>
                               </li>
                            </ul>
-                           <!-- <div class="sign_btn"><a href="#">Contáctanos</a></div> -->
-
                         </div>
                      </nav>
                   </div>
@@ -61,7 +55,9 @@ include_once "header.php";
       </div>
    </header>
 
-   <!-- banner -->
+   <!-- header finish -->
+
+   <!-- banner slider-->
    <div id="myCarousel" class="carousel slide banner_main" data-ride="carousel">
       <ol class="carousel-indicators">
          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -72,18 +68,7 @@ include_once "header.php";
       <div class="carousel-inner">
          <div class="carousel-item active">
             <img class="first-slide" src="images/portada-grupo-mupsa.png" alt="First slide">
-            <!-- <div class="container ">
-               <div class="carousel-caption relative">
-                  <h1> Estamos listos para hacer crecer tu negocio</h1>
-                  <span></span>
-                  <h5>Estamos aqui para convertirnos en el socio estratégico que tu empresa necesita. En Grupo Mupsa
-                     encontrarás los mejores productos y servicios corportativos para hacer crecer tu negocio.
-                  </h5>
-                  <div class="btnContacto">
-                     <a href="#contact">Contáctanos</a>
-                  </div>
-               </div>
-            </div> -->
+
          </div>
          <div class="carousel-item">
             <img class="second-slide" src="images/2.png" alt="Second slide">
@@ -130,24 +115,23 @@ include_once "header.php";
                </div>
             </div>
          </div>
-
-
       </div>
 
       </a>
    </div>
    <!-- end banner -->
 
-   <!-- Título "Quiénes Somos" -->
+   <!-- about us -->
+
+   <!-- about title-->
    <div class="custom-container" id="quienessomos">
       <div class="custom-border-top"></div>
-      <div class="p-2 text-center custom-bg-blue">
+      <div class="text-center custom-bg-blue">
          <h2>Quiénes Somos</h2>
       </div>
    </div>
 
-
-   <!-- about -->
+   <!-- about section -->
    <div id="about" class="about">
       <div class="container">
          <div class="row ">
@@ -161,9 +145,9 @@ include_once "header.php";
                   <!-- <h2>Nuestra Historia</h2> -->
                   <!-- <span></span> -->
                   <p style="text-align: justify;">Somos Grupo Mupsa Perú
-               una empresa que brinda productos y servicios a nivel corporativo, cuya 
-               finalidad es ofrecer calidad, confianza y compromiso en cada acción ejecutada, llegando
-               hacer un socio estratégico para cada uno de nuestros clientes a corto y largo plazo.</p>
+                     una empresa que brinda productos y servicios a nivel corporativo, cuya
+                     finalidad es ofrecer calidad, confianza y compromiso en cada acción ejecutada, llegando
+                     hacer un socio estratégico para cada uno de nuestros clientes a corto y largo plazo.</p>
 
                </div>
             </div>
