@@ -7,7 +7,7 @@
                   <div class="full">
                      <div class="center-desk">
                         <div class="logo">
-                           <a href="index.php"><img src="images/logo-blanco.png" alt="#" /></a>
+                           <a href="index"><img src="images/logo-blanco.png" alt="#" /></a>
                         </div>
                      </div>
                   </div>
@@ -23,7 +23,7 @@
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                            <ul class="navbar-nav mr-auto">
                               <li class="nav-item active">
-                                 <a class="nav-link" href="index.php"><b>Inicio </b></a>
+                                 <a class="nav-link" href="index"><b>Inicio </b></a>
                               </li>
                               <li class="nav-item dropdown">
                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -31,9 +31,9 @@
                                     <b>Marcas</b>
                                  </a>
                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="mupsaServicio.php">Mupsa Servicios</a>
-                                    <a class="dropdown-item" href="mupsaAgencia.php">Mupsa Agencia Creativa</a>
-                                    <a class="dropdown-item" href="mupsanatura.php">D’Mupsa Natural</a>
+                                    <a class="dropdown-item" href="mupsaServicio">Mupsa Servicios</a>
+                                    <a class="dropdown-item" href="mupsaAgencia">Mupsa Agencia Creativa</a>
+                                    <a class="dropdown-item" href="mupsanatura">D’Mupsa Natural</a>
                                  </div>
                               </li>
                               <!-- <li class="nav-item">

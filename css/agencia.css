@@ -65,6 +65,7 @@
 }
 .infoAge .icontext a {
     color: #1493b3;
+    text-decoration: none;
     
 }
 
@@ -134,6 +135,7 @@
 }
 .infoPro .icontext a {
     color: #349b57;
+    text-decoration: none;
     
 }
 

@@ -329,8 +329,7 @@ button {
      justify-content: center;
      max-width: 100%;
      height: 60px;
-     background: rgb(19,47,86); 
-     background: linear-gradient(90deg, rgba(19,47,86,1) 29%, rgba(15,26,207,1) 81%);
+     
 }
 
 .custom-container h2 {
@@ -366,8 +365,7 @@ button {
 .about {
      padding: 90px 0;
      max-width: 100%;
-     background: rgb(19,47,86); 
-     background: linear-gradient(90deg, rgba(19,47,86,1) 29%, rgba(15,26,207,1) 81%);
+    
 }
 
 .about .titlepage {
@@ -386,11 +384,11 @@ button {
 
 .about_img figure {
      margin: 5px 10px;
-     width: 80%;
+     width: 100%;
 }
 
 .about_img figure img {
-     width: 80%;
+     width: 100%;
 }
 
 
@@ -510,7 +508,7 @@ button {
 }
 
 .mobile .titlepage .logoimg .iconimg {
-     width: 35%;
+     width: 30%;
      display: flex;
      align-items: end;
      justify-content: end;
@@ -520,8 +518,13 @@ button {
 }
 
 .mobile .titlepage .logoimg .icontext {
-     width: 65%;
+     width: 70%;
      text-align: left;
+     
+}
+
+.mobile .titlepage .logoimg .icontext a {
+     text-decoration: none;
 }
 
 .mobile_img figure {
